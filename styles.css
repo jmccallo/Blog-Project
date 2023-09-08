@@ -149,6 +149,9 @@ article {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+}
+
 footer {
     background-color: #333;
     color: #fff;
