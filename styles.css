@@ -1,0 +1,174 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dropbtn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0 px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.blog-post {
+    margin-bottom: 20px;
+}
+
+.blog-post img {
+    max-width: 5%;
+    height: auto; 
+}
+
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.nav_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-emphasis: moccasin;
+  }
+
+.nav_container a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.form-and-social {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.social-text {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.social-sharing {
+    background-color: #f4f4f4;
+    margin-left: 15px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.form-group input,
+.form-group textarea {
+    width:  100%;
+    padding:  12px;
+    font-size: 16px;
+    border:  1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .social-icons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .social-icons a {
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .social-icons {
+        font-size: 24px;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
