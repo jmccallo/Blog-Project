@@ -15,16 +15,16 @@ Welcome to my Personal Blog Website project! This website serves as a platform f
 
 This project is a personal blog website built with HTML, and CSS. It includes the following sections:
 
-- Home Page: Introduces the website and its purpose.
-- Blog Page: Contains blog posts categorized into Emerging Tech, Programming News, and Design.
-- Contact Page: Allows visitors to subscribe and get in touch.
+- **Home Page:** Introduces the website and its purpose.
+- **Blog Page:** Contains blog posts categorized into Emerging Tech, Programming News, and Design.
+- **Contact Page:** Allows visitors to subscribe and get in touch.
 
 ## Features
 
-- Responsive design: The website is designed to work well on various devices, including desktops, tablets, and mobile phones.
-- Blog Categories: Users can explore blog posts in different categories.
-- Subscription Form: Visitors can subscribe to receive updates.
-- Contact Form: Provides a way for users to send messages and get in touch.
+- **Responsive design:** The website is designed to work well on various devices, including desktops, tablets, and mobile phones.
+- **Blog Categories:** Users can explore blog posts in different categories.
+- **Subscription Form:** Visitors can subscribe to receive updates.
+- **Contact Form:** Provides a way for users to send messages and get in touch.
 
 ## Installation
 
